@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yondima</title>
+    <link rel="stylesheet" href="MAPAGE.css">
+</head>
+<body>
+    <style>
+    body {
+        background-image: url(190422274320_04.jpg); 
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;    
+        }
+    </style>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><b>JaayMa</b></h2>
+            </div>
+            <div class="Menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </Ul>
+            </div>
+            <div class="login-container">
+                <form class="login-form">
+                    <br>
+                    <input type="text" placeholder="Nom d'utilisateur" required>
+                    <input type="password" placeholder="Mot de passe" required>
+                    <button type="submit">Se connecter</button>
+                    <script src="script.js"></script>
+                </form>
+            </div>
+            <div class="description-container">
+                <div class="description">
+                    <h2>Bienvenue sur notre site</h2>
+                    <p>
+                        <b>Notre site offre une large gamme de services et de produits pour répondre à tous vos besoins.
+                        Nous nous engageons à fournir une expérience utilisateur exceptionnelle avec des solutions de haute qualité.
+                        Explorez nos offres et découvrez comment nous pouvons vous aider à réaliser vos objectifs.</b>
+                    </p>
+                </div>
+                <div class="signup-container">
+                    <form class="signup-form">
+                        <h2>Créer un Compte</h2>
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                        <input type="email" placeholder="Adresse e-mail" required>
+                        <input type="password" placeholder="Mot de passe" required>
+                        <input type="password" placeholder="Confirmer le mot de passe" required>
+                        <input type="tel" placeholder="telephone" required>
+                        <button type="submit">S'inscrire</button>
+                        <script src="script.js"></script>
+                    </form>
+                </div>
+                
+    
+</body>
+</html>
